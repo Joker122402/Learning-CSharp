@@ -7,7 +7,7 @@ public class ToDoList
     //Description
     private string Description { get; init; }
     // Items
-    private List<ToDoListItem> Items { get; set; }
+    public List<ToDoListItem> Items { get; set; }
 
 
     //constructor
@@ -23,23 +23,16 @@ public class ToDoList
         };
     }
 
-    public void ListItems()
+    public List<string> GetItemTitles()
     {
-        foreach (var item in Items)
-        {
-            Console.WriteLine(item.Title);
-        }
+        return Items.Select(item => item.Title).ToList();
     }
 
-    public void ListDetailedItemInfo(string title)
+    public string ListDetailedItemInfo(string title)
     {
-        var itemArray = Items.Where(i => i.Title.Equals(title)).ToArray();
-        foreach (var item in itemArray)
-        {
-            Console.WriteLine(item);
-        }
-        
-        Thread.Sleep(1000);
+        var item = (Items.Where(i => i.Title.Equals(title))).FirstOrDefault();
+
+        return item is null ? $"Item not found with title: {title}" : item.ToString();
     }
 
     public string AddItem(ToDoListItem item)

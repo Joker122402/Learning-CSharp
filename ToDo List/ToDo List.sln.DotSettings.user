@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62d053f4_002Dfb3e_002D41c4_002D97f3_002Daf3a432ee093/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetItemTitlesReturnsCorrectTitles" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.GetItemTitlesReturnsCorrectTitles&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.ListDetailedItemInfoReturnsCorrectInfo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.AddItemAddsItemToList&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

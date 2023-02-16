@@ -25,13 +25,17 @@ while (true)
         switch (input)
     {
         case "5":
-            System.Environment.Exit(0);
+            Environment.Exit(0);
             break;
 
         case "1":
             Console.WriteLine("Listing Items...");
             Console.WriteLine(divider);
-            list.ListItems();
+            var titles = list.GetItemTitles();
+            foreach (var title in titles)
+            {
+                Console.WriteLine(title);
+            }
             Console.WriteLine();
             Thread.Sleep(1000);
             break;
@@ -40,11 +44,8 @@ while (true)
             Console.WriteLine("Which item info do you wish to see? ");
             var item = Console.ReadLine();
             Console.WriteLine();
-            if (item != null) list.ListDetailedItemInfo(item);
-            else
-            {
-                Console.WriteLine("Item Not Found");
-            }
+            Console.WriteLine(list.ListDetailedItemInfo(item));
+            Thread.Sleep(1000);
             break;
 
         case "3":
@@ -52,7 +53,7 @@ while (true)
             Console.WriteLine("Please add the following info: ");
             // get title
             Console.Write("Title: ");
-            var title = Console.ReadLine();
+            var itemTitle = Console.ReadLine();
 
             // get description
             Console.Write("Description: ");
@@ -76,9 +77,9 @@ while (true)
                 Console.WriteLine();
 
                 // Add item to list
-                if (title != null)
+                if (itemTitle != null)
                 {
-                    Console.WriteLine(list.AddItem(new ToDoListItem(title, description, priority, status, dueDate)));
+                    Console.WriteLine(list.AddItem(new ToDoListItem(itemTitle, description, priority, status, dueDate)));
                 }
                 else
                 {
