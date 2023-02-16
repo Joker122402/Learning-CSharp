@@ -3,10 +3,10 @@ namespace ToDo_List;
 public class ToDoListItem
 {
     public string Title { get; set; }
-    public string Description { get; set; }
-    public string Priority { get; set; }
-    public string Status { get; set; }
-    public DateOnly DueDate { get; set; }
+    private string Description { get; set; }
+    private string Priority { get; set; }
+    private string Status { get; set; }
+    private DateOnly DueDate { get; set; }
 
 
     public ToDoListItem(string title, string description, string priority, string status, DateOnly dueDate)

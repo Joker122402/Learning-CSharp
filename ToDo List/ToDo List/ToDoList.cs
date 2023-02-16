@@ -3,11 +3,11 @@ namespace ToDo_List;
 public class ToDoList
 {
     // Title
-    public string Title { get; init; }
+    private string Title { get; init; }
     //Description
-    public string Description { get; init; }
+    private string Description { get; init; }
     // Items
-    public List<ToDoListItem> Items { get; set; }
+    private List<ToDoListItem> Items { get; set; }
 
 
     //constructor
