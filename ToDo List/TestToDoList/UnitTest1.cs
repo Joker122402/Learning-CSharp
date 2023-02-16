@@ -59,7 +59,16 @@ public class UnitTest1
         Assert.Equal($"Item with title: Item 1, removed from To-Do List", result);
         Assert.DoesNotContain(item, list.Items);
     }
-    
+
     [Fact]
-    public void RemoveItemProducesErrorIfItemNotFound
+    public void RemoveItemProducesErrorIfItemNotFound()
+    {
+        // Arrange Test
+        var list = new ToDoList("My To-Do List", "My To-Do List");
+        
+        // Perform Test
+        var result = list.RemoveItem("Item 1");
+        
+        Assert.Equal($"Item with title: Item 1, not found in To-Do List", result);
+    }
 }
