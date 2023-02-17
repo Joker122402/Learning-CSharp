@@ -4,5 +4,6 @@
     &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.GetItemTitlesReturnsCorrectTitles&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.ListDetailedItemInfoReturnsCorrectInfo&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.AddItemAddsItemToList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CC51413-CFDF-4FAA-A68B-E111053ED020::net6.0::TestToDoList.UnitTest1.RemoveItemProducesErrorIfItemNotFound&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

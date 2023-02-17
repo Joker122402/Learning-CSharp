@@ -1,0 +1,5 @@
+C:\Users\Joker\Documents\GitHub\Learning-CSharp\Exercisim\Exercisim\obj\Debug\net6.0\Exercisim.csproj.AssemblyReference.cache
+C:\Users\Joker\Documents\GitHub\Learning-CSharp\Exercisim\Exercisim\obj\Debug\net6.0\Exercisim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joker\Documents\GitHub\Learning-CSharp\Exercisim\Exercisim\obj\Debug\net6.0\Exercisim.AssemblyInfoInputs.cache
+C:\Users\Joker\Documents\GitHub\Learning-CSharp\Exercisim\Exercisim\obj\Debug\net6.0\Exercisim.AssemblyInfo.cs
+C:\Users\Joker\Documents\GitHub\Learning-CSharp\Exercisim\Exercisim\obj\Debug\net6.0\Exercisim.csproj.CoreCompileInputs.cache
